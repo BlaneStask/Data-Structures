@@ -3,7 +3,7 @@
 #include <queue>
 using namespace std;
 
-int priority(char op) {
+int priority(char op){
     int tmp;
     if (op == '^')
         tmp = 1;
@@ -102,7 +102,7 @@ template<class T> class Node{
         Node(T d){
             T data = d;
         }
-        T *newNode(int data) { 
+        T *newNode(int data){ 
             Node<T> *tmp = new Node<T>; 
             tmp->data = data; 
             tmp->left = tmp->right = NULL; 
@@ -194,7 +194,7 @@ template<class T> class myStack{
         }
 };
 
-int main() { 
+int main(){ 
     string prob = "5*((9+3)*(4*2)+7)";
     cout << postfix(prob) << endl;
     cout << eval(postfix(prob)) << endl;
