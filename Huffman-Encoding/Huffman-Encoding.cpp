@@ -6,7 +6,6 @@
 #include "BTree.h"
 using namespace std;
 
-
 int main(){
   ifstream textfile ;
   textfile.open("sometext.txt");
