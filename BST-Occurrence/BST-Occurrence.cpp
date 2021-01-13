@@ -16,7 +16,6 @@ struct BST{
    struct LinkedList *head,*tail;
    struct BST *left;
    struct BST *right;
-
    BST(string word, int data){
        this->word=word;
        this->head=new LinkedList(data);
