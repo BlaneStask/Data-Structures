@@ -282,7 +282,7 @@ int main(){
     }
     stopwordsfile.close();  
     int hword;
-///*
+/*
     // a) Separate Chaining
     SeparateH h(numOfSW);
     for(int i = 0; i < numOfSW; i++){
@@ -303,7 +303,7 @@ int main(){
     cout << endl;
     cout << "Hash table: " << endl; 
     h.displayHash(); 
-//*/
+*/
 /*
     // b) Coalesced Chaining
     CoalescedH h(numOfSW);
